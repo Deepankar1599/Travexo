@@ -1,0 +1,60 @@
+body{
+	background-image: url("memphis-mini.png");
+}
+h1:hover
+{
+color: rgb(255, 51, 51);
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+	font-size: 20px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 51, 51);
+  color: white;
+}
+
+
+.tweet-body{
+	width:82%;
+	margin-left: 60px;
+	padding-top: 20px;
+}
+.tweet-body textarea{
+	overflow: hidden;
+	resize:none;
+	
+	height: 80px;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px; 
+	font-size: 14px;
+
+}
